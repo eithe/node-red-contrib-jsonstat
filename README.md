@@ -2,6 +2,8 @@
 
 > These nodes let you (somewhat) easily deal with jsonstat formatted data
 
+https://www.npmjs.com/package/node-red-contrib-jsonstat
+
 # Nodes
 
 - jsonstat data: Get data from jsonstat input (msg.payload)
