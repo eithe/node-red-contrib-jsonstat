@@ -11,8 +11,7 @@
 
 - Documentation
 - Help inside Node-RED
-- Tests
+- Increase test coverage
 - Node icons
 - jsonstat collections
 - jsonstat dimensions
-- Think larger, the current implementation just suited my quick needs.
