@@ -12,7 +12,7 @@ module.exports = function(RED) {
     
     function JSONStatCategoryNode(config) {
         RED.nodes.createNode(this, config)
-        this.dataset = Number(config.dataset)
+        this.dataset = isNaN(config.dataset) ? 0 : Number(config.dataset)
         this.dimension = config.dimension || null;
         this.category = config.category || null;
         

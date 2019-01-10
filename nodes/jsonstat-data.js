@@ -12,7 +12,7 @@ module.exports = function(RED) {
     
     function JSONStatDataNode(config) {
         RED.nodes.createNode(this, config)
-        this.dataset = Number(config.dataset)
+        this.dataset = isNaN(config.dataset) ? 0 : Number(config.dataset)
         this.data = config.data ? JSON.parse(config.data) : {}
         
         var node = this
