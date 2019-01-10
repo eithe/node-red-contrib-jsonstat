@@ -14,6 +14,7 @@ https://www.npmjs.com/package/node-red-contrib-jsonstat
 - Documentation
 - Help inside Node-RED
 - Increase test coverage
+- Setup Travis
 - Node icons
 - jsonstat collections
 - jsonstat dimensions
