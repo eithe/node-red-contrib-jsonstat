@@ -1,24 +1,24 @@
-<script type="text/javascript">
-    RED.nodes.registerType('jsonstat-category',{
-        category: 'function',
-        color: '#a6bbcf',
-        defaults: {
-            name: { value: "" },
-            dataset: { value: 0 },
-            dimension: { value: "" },
-            category: { value: "" },
-        },
-        inputs:1,
-        outputs:1,
-        icon: "file.png",
-        align: "left",
-        label: function() {
-            return this.name || "jsonstat-category";
-        },
-        labelStyle: function() {
-            return this.name ? "node_label_italic" : "";
-        },
-    });
+<script type='text/javascript'>
+  RED.nodes.registerType('jsonstat-category', {
+    category: 'function',
+    color: '#a6bbcf',
+    defaults: {
+      name: { value: '' },
+      dataset: { value: 0 },
+      dimension: { value: '' },
+      category: { value: '' },
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: 'file.png',
+    align: 'left',
+    label: function () {
+      return this.name || 'jsonstat-category';
+    },
+    labelStyle: function () {
+      return this.name ? 'node_label_italic' : '';
+    },
+  });
 </script>
 
 <script type="text/x-red" data-template-name="jsonstat-category">

@@ -1,45 +1,45 @@
 <script type="text/javascript">
-    RED.nodes.registerType('jsonstat-data',{
-        category: 'function',
-        color: '#a6bbcf',
-        defaults: {
-            name: { value: "" },
-            dataset: { value: 0 },
-            data: {
-                value: "",
-                validate: function(v) { 
-                    // data isn't required since it could be either not needed or provided via payload
-                    if (!v) {
-                        return true;
-                    }
-                    try {
-                        JSON.parse(v);
-                        return true;
-                    } catch (e) {
-                        return false;
-                    }
-                },
-            },
+  RED.nodes.registerType('jsonstat-data', {
+    category: 'function',
+    color: '#a6bbcf',
+    defaults: {
+      name: { value: '' },
+      dataset: { value: 0 },
+      data: {
+        value: '',
+        validate: function (v) {
+          // data isn't required since it could be either not needed or provided via payload
+          if (!v) {
+            return true;
+          }
+          try {
+            JSON.parse(v);
+            return true;
+          } catch (e) {
+            return false;
+          }
         },
-        inputs:1,
-        outputs:1,
-        icon: "file.png",
-        align: "left",
-        label: function() {
-            return this.name || "jsonstat-data";
-        },
-        labelStyle: function() {
-            return this.name ? "node_label_italic" : "";
-        },
-        oneditprepare: function() {
-            const $data = $("#node-input-data");
-            $data
-                .typedInput({
-                types: ["json"]
-                })
-                .typedInput("width", "68%");
-        },
-    });
+      },
+    },
+    inputs: 1,
+    outputs: 1,
+    icon: 'file.png',
+    align: 'left',
+    label: function () {
+      return this.name || 'jsonstat-data';
+    },
+    labelStyle: function () {
+      return this.name ? 'node_label_italic' : '';
+    },
+    oneditprepare: function () {
+      const $data = $('#node-input-data');
+      $data
+        .typedInput({
+          types: ['json']
+        })
+        .typedInput('width', '68%');
+    },
+  });
 </script>
 
 <script type="text/x-red" data-template-name="jsonstat-data">
