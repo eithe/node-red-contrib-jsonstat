@@ -13,4 +13,6 @@
 - Help inside Node-RED
 - Tests
 - Node icons
+- jsonstat collections
+- jsonstat dimensions
 - Think larger, the current implementation just suited my quick needs.
