@@ -8,17 +8,20 @@
   "dependencies": {
     "jsonstat": "0.13.3"
   },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "mocha": "~5.2.0",
+    "node-red": "~0.19.5",
+    "node-red-node-test-helper": "~0.1.8",
+    "nyc": "^13.1.0"
+  },
   "keywords": [
     "node-red",
     "jsonstat"
   ],
-  "devDependencies": {
-    "mocha": "~5.2.0",
-    "node-red": "~0.19.5",
-    "node-red-node-test-helper": "~0.1.8"
-  },
   "scripts": {
-    "test": "mocha \"test/**/*_spec.js\""
+    "test": "nyc mocha \"test/**/*_spec.js\"",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "node-red": {
     "nodes": {
