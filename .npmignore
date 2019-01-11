@@ -25,6 +25,7 @@ test/
 template.readme.md
 #CI
 .travis.yml
+.coveralls.yml
 #project styles
 .eslintrc.js
 .prettierrc.js
