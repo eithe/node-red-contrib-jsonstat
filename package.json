@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
-    "mocha": "~5.2.0",
+    "mocha": "~11.7.5",
     "node-red": "~0.19.5",
     "node-red-node-test-helper": "~0.1.8",
     "nyc": "^13.1.0"
