@@ -1468,9 +1468,9 @@ jsonfile@^4.0.0:
   optionalDependencies:
     graceful-fs "^4.1.6"
 
-jsonstat@0.13.3:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/jsonstat/-/jsonstat-0.13.3.tgz#2202bbe6f448f2ce1dcf06574c6858aa579c6746"
+jsonstat@0.13.13:
+  version "0.13.13"
+  resolved "https://registry.yarnpkg.com/jsonstat/-/jsonstat-0.13.13.tgz#cd4c8d2f3ce8457bdbc8f04eddb043d53010e7e6"
 
 jsprim@^1.2.2:
   version "1.4.1"
@@ -1724,10 +1724,6 @@ minimist@0.0.8:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.8.tgz#857fcabfc3397d2625b8228262e86aa7a011b05d"
 
 minimist@^1.1.0, minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-
-minimist@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
 

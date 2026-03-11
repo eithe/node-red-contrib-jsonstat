@@ -6,7 +6,7 @@
   "repository": "github:eithe/node-red-contrib-jsonstat",
   "license": "MIT",
   "dependencies": {
-    "jsonstat": "0.13.3"
+    "jsonstat": "0.13.13"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
