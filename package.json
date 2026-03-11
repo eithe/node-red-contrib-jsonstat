@@ -13,7 +13,7 @@
     "mocha": "~5.2.0",
     "node-red": "~0.19.5",
     "node-red-node-test-helper": "~0.1.8",
-    "nyc": "^13.1.0"
+    "nyc": "^18.0.0"
   },
   "keywords": [
     "node-red",
